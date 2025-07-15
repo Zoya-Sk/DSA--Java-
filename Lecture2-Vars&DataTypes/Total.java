@@ -1,4 +1,3 @@
-package Lecture2;
 import java.util.*;
 
 public class Total {
@@ -11,7 +10,8 @@ public class Total {
         double eraser = sc.nextDouble();
 
         double total = pen + pencil + eraser;
-        double taxAmount = (total*18)/100;
+        System.out.println("Total Amount: "+ total);
+        double taxAmount = (total * 0.18);
         System.out.println("Tax Amount is "+ taxAmount);
 
         sc.close();
